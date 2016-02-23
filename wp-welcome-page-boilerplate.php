@@ -5,7 +5,7 @@
  * Description: Welcome page boilerplate for WordPress plugins.
  * Author: mrahmadawais, WPTie
  * Author URI: http://AhmadAwais.com/
- * Version: 1.0.1
+ * Version: 1.0.0
  * License: GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * GitHub Plugin URI: https://github.com/WPTie/WP-Welcome-Page-Boilerplate
