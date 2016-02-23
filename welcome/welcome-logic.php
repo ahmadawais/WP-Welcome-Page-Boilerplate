@@ -91,8 +91,8 @@ function wpw_welcome_page_content() {
 /**
  * Admin CSS for Welcome Page.
  *
- * Adds dynamic CSS to the welcome page.
- * Uncomment to add the CSS.
+ *  Adds dynamic CSS to the welcome page.
+ * (Optional) Uncomment to add the CSS.
  *
  * @since 	1.0.0
  * @package WPW
