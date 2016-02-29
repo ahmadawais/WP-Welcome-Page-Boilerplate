@@ -116,6 +116,7 @@ $logo_img = WPW_URL . '/welcome/img/logo.png';
 
 	</div>
 
+<!-- Commented optional view -->
 
 <!-- 	<div class="changelog">
 		<h3><?php _e( 'Under the Hood' ); ?></h3>
