@@ -4,50 +4,44 @@
  *
  * Welcome page initializer.
  *
- * @since 	1.0.0
- * @package WPw
+ * @since 1.0.0
  */
 
-// Exit if accessed directly.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
+if ( ! defined( 'WPINC' ) ) {
+
+    die;
+
 }
 
 
 /**
- * Add a transient.
+ * Activates the welcome page.
  *
- * Add the welcome page transient.
+ * Adds transient to manage the welcome page.
  *
  * @since 1.0.0
  */
 function wpw_welcome_activate() {
 
-	// Transient max age is 60 seconds.
-	set_transient( '_welcome_redirect_wpw', true, 60 );
+    // Transient max age is 60 seconds.
+    set_transient( '_welcome_redirect_wpw', true, 60 );
+
 }
+
 register_activation_hook( WPW_PLUGIN_FILE, 'wpw_welcome_activate' );
 
 
 /**
- * Plugin Deactivation.
+ * Deactivates welcome page
  *
- * Delete the welcome page transient.
- *
- * @since   1.0.0
- * @package WPW
- */
-function wpw_welcome_deactivate() {
-  delete_transient( '_welcome_redirect_wpw' );
-}
-register_deactivation_hook( WPW_PLUGIN_FILE, 'wpw_welcome_deactivate' );
-
-
-/**
- * Welcome Logic.
+ * Deletes the welcome page transient.
  *
  * @since 1.0.0
  */
-if ( file_exists( WPW_DIR . '/welcome/welcome-logic.php' ) ) {
-    require_once( WPW_DIR . '/welcome/welcome-logic.php' );
+function wpw_welcome_deactivate() {
+
+  delete_transient( '_welcome_redirect_wpw' );
+
 }
+
+register_deactivation_hook( WPW_PLUGIN_FILE, 'wpw_welcome_deactivate' );
