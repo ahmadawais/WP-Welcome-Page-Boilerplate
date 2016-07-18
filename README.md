@@ -9,8 +9,8 @@ WordPress plugin to add a welcome page on plugin activation!
 - Safe redirect to the welcome page for one time
 - Welcome page of-course
 
-### Changelog
-Changelog can be read at Changelog.md
+## Changelog
+Changelog can be read at [Changelog.md](https://github.com/ahmadawais/WP-Welcome-Page-Boilerplate/blob/master/CHANGELOG.md)
 
 ### Version 1.0.1 // 2016-07-18
 #### Enhancements:
