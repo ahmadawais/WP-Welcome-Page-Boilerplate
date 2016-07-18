@@ -1,0 +1,29 @@
+/* ----------------------------------------------------------------------------
+ * Welcome Page CSS
+ * ------------------------------------------------------------------------- */
+ /* New Logo */
+ .svg .wp-badge.welcome__logo {
+     color: #fff;
+     background: url(../img/logo.png)  center 24px no-repeat #0092F9;
+     -webkit-background-size: contain;
+          -o-background-size: contain;
+             background-size: contain;
+ }
+
+ /* Responsive Youtube Video*/
+ .embed-container {
+    height        : 0;
+    max-width     : 100%;
+    padding-bottom: 56.25%;
+    overflow      : hidden;
+    position      : relative;
+ }
+ .embed-container iframe,
+ .embed-container object,
+ .embed-container embed {
+    top     : 0;
+    left    : 0;
+    width   : 100%;
+    height  : 100%;
+    position: absolute;
+ }
