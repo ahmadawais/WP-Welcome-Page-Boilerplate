@@ -20,3 +20,6 @@ Changelog can be read at [Changelog.md](https://github.com/ahmadawais/WP-Welcome
 
 ### Version 1.0.0 
 - First Version
+
+## License
+Released under GPLv2.0 or later.
